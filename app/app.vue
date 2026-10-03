@@ -17,15 +17,15 @@ useHead({
   }
 })
 
-const title = 'Nuxt AI Chatbot template'
-const description = 'A full-featured, hackable Nuxt AI chatbot template made with Nuxt UI.'
+const title = 'The Full 105-Volume Erlanger Archive'
+const description = 'A comprehensive digital humanities tool hosting the entire Erlanger Edition of Dr. Martin Luther\'s Sämmtliche Werke. Use the AI companion to query the dataset, print out exact page views, or generate deep theological summaries from the complete 50,000-page historical text.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/chat-light.png',
+  ogImage: 'https://luthers-werke.vercel.app/og-image.jpg',
   twitterCard: 'summary_large_image'
 })
 </script>
