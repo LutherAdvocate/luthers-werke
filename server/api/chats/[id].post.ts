@@ -48,7 +48,7 @@ export default defineEventHandler(async (event) => {
 
   if (!chat.title) {
     const { text: title } = await generateText({
-      model: model.startsWith('google/') ? google('gemini-3.5-flash-lite') : gateway(model),
+      model: model.startsWith('google') ? google(model.slice(7)) : gateway(model),
       // providerOptions: { openai: { apiKey: process.env.OPENAI_API_KEY } },
       instructions: `You are a title generator for a chat:
           - Generate a short title based on the first user's message
@@ -100,7 +100,7 @@ export default defineEventHandler(async (event) => {
     execute: async ({ writer }) => {
       const result = streamText({
         abortSignal: abortController.signal,
-        model: model.startsWith('google/') ? google('gemini-3.5-flash-lite') : gateway(model), // model,
+        model: model.startsWith('google') ? google(model.slice(7)) : gateway(model), // model,
         instructions: `You are a knowledgeable and helpful AI assistant. ${session.user?.username ? `The user's name is ${session.user.username}.` : ''} Your goal is to provide clear, accurate, and well-structured responses.
 
 **FORMATTING RULES (CRITICAL):**

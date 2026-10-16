@@ -1,5 +1,5 @@
 export const MODELS = [
-  { label: 'Gemini', value: 'google/gemini-2.5-flash-lite', icon: 'i-simple-icons-google' },
+  { label: 'Gemini', value: 'google/gemini-3.5-flash-lite', icon: 'i-simple-icons-google' },
   { label: 'OpenAI', value: 'openai/gpt-5-nano', icon: 'i-simple-icons-openai' },
   { label: 'Inclusionai', value: 'inclusionai/ling-3.0-flash', icon: 'i-simple-icons-anthropic' }
 ]

@@ -17,7 +17,7 @@ useHead({
   }
 })
 
-const title = 'The Full 105-Volume Erlanger Archive'
+const title = 'Luther\'s Werke ~ Erlangen Ed.'
 const description = 'A comprehensive digital humanities tool hosting the entire Erlanger Edition of Dr. Martin Luther\'s Sämmtliche Werke. Use the AI companion to query the dataset, print out exact page views, or generate deep theological summaries from the complete 50,000-page historical text.'
 
 useSeoMeta({

@@ -62,31 +62,31 @@ async function onSubmit() {
 
 const quickChats = [
   {
-    label: 'Why use Nuxt UI?',
+    label: 'Did Luther wrote that "The law of the letter is a law of sin" as a note to Romans 8:2, in his own Bible?',
     icon: 'i-logos-nuxt-icon'
   },
   {
-    label: 'Help me create a Vue composable',
-    icon: 'i-logos-vue'
-  },
-  {
-    label: 'Tell me more about UnJS',
+    label: 'Did Luther wrote that "the law of sin" is "the accusing and killing law" as a note to Romans 8:2, in his own Bible?',
     icon: 'i-logos-unjs'
   },
   {
-    label: 'Why should I consider VueUse?',
+    label: 'Did Luther wrote that "the law of Moses is a leaven" in his great interpretation of Galatians 5:9',
+    icon: 'i-logos-vue'
+  },
+  {
+    label: 'Where did Luther wrote this: "The law of the letter and the law of the Spirit differ, as the sign and the thing signified, as word and thing"?',
     icon: 'i-logos-vueuse'
   },
   {
-    label: 'Tailwind CSS best practices',
+    label: 'Does Luther use "the law of work" as synonym to "the law of Moses"?',
     icon: 'i-logos-tailwindcss-icon'
   },
   {
-    label: 'What is the weather in Bordeaux?',
+    label: 'Does Luther write about "a threefold law" in his disput with Erasmus? ("The law of nature, the law of works and the law of faith")',
     icon: 'i-lucide-sun'
   },
   {
-    label: 'Show me a chart of sales data',
+    label: 'When we read "the mind" in the Bible wasn\'t Luther using a German word that means "soul" or "heart", and not "mind" (as we understand "mind")?',
     icon: 'i-lucide-line-chart'
   }
 ]
